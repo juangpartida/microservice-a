@@ -10,7 +10,7 @@ It is built with Node.js and Express.js and returns data in JSON format.
 
 ---
 
-##  **Project Structure**
+## **Project Structure**
 ```
 microservice-a/
 │── node_modules/       # Installed dependencies (auto-generated)
@@ -28,39 +28,42 @@ microservice-a/
 │── package.json        # Project metadata & dependencies
 │── package-lock.json   # Dependency lock file
 │── README.md           # Documentation
-│── logs.txt            # Log file 
+│── logs.txt            # Log file
+```
 
 ---
 
-##  **Installation & Setup**
-### ** 1. Prerequisites**
+## **Installation & Setup**
+
+### **1. Prerequisites**
 - **Node.js** (>=16.x)
 - **npm** (>=8.x)
 
-### ** 2. Clone the Repository**
-This is assuming you are downloading the microservice directly from my github repository.
+### **2. Clone the Repository**
+This assumes you are downloading the microservice directly from my GitHub repository.
 
 ```sh
 git clone https://github.com/juangpartida/microservice-a.git
 cd microservice-a
 ```
 
-### ** 3. Install Dependencies**
+### **3. Install Dependencies**
 ```sh
 npm install
 ```
 
-### ** 4. Start the Microservice**
+### **4. Start the Microservice**
 ```sh
 npm start
 ```
 This runs `node src/server.js`, which starts the API.
 
-### ** 5. Test the API**
+### **5. Test the API**
 Open a browser or use Postman:
 ```bash
 http://localhost:3000/generate_currency?level=10&members=3&reduce=true
 ```
+
 
 ---
 
@@ -162,6 +165,8 @@ cp = currency_data['coins']['cp']
 # Display the values
 print(f"Gold: {gp}, Silver: {sp}, Copper: {cp}")
 ```
+
+## UML Diagram (IP)
 
 
 
