@@ -166,8 +166,9 @@ cp = currency_data['coins']['cp']
 print(f"Gold: {gp}, Silver: {sp}, Copper: {cp}")
 ```
 
-## UML Diagram (IP)
+## UML Diagram
 
+![UML Diagram - Currency Generator Microservice](https://github.com/user-attachments/assets/d51c7c0b-cba4-4904-b283-e0c575b9feff)
 
 
 
